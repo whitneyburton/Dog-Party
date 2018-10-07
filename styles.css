@@ -1,0 +1,107 @@
+/* universal */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* paragraphs and fonts */ 
+h1 {
+  font-family: Raleway, sans-serif;
+  margin: 13px;
+}
+p, h3, li {
+    font-family: Raleway, sans-serif;
+}
+
+/* navigation bar */
+body {
+  text-align: center;
+}
+nav {
+  background-color: #91dfe3;
+  height: 40px;
+  padding: 10px 10px;
+  color: #fff;
+}
+.dog-icon {
+  width: 30px; 
+  height: 30px;
+  float: left;
+}
+.list {
+  float: right;
+}
+ul {
+  margin: 10px auto 0px auto;
+}
+li {
+  display: inline;
+  background-color: #91dfe3;
+  padding: 0px 15px;
+  font-weight: bold;
+}
+ul, li {
+  text-decoration: none;
+}
+a {
+  color: white;
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+}
+
+/* header */
+header {
+ background-image: url("images/park.jpg");
+ float: center;
+ background-size: cover;
+ text-align: center;
+ padding: 14px;
+}
+
+/* image details*/ 
+.round-header-image {
+  border-radius: 50%;
+  border: 4px solid #3f8ca6;
+  margin-bottom: 10px;
+}
+.round-bio-images {
+  border-radius: 50%;
+  border: 3px solid #3f8ca6;
+  width: 200px;
+  height: 200px;
+  margin: 23px;
+}
+button {
+    background-color: #fff; 
+    font-family: Raleway, sans-serif;
+    border: 4px #3f8ca6 solid;
+    color: #3f8ca6;
+    padding: 3px 8px;
+    margin: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* dog bios */
+.dog1, .dog2, .dog3 {
+  float: left;
+  width: 30.33%;
+  margin: 20px;
+  display: inline-block;
+}
+
+/*footer*/
+.footer {
+  background-color: #3f8ca6;
+  color: #FFF;
+  clear: left;
+  padding: 15px;
+}
+.social-media {
+  padding: 25px;
+}
+.link {
+  text-decoration: underline;
+}
